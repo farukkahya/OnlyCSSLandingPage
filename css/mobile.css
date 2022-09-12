@@ -1,0 +1,65 @@
+#navbar{
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+    flex-direction: column;
+    overflow: hidden;
+    height: 80px;
+}
+#language{
+    display: flex;
+    flex-direction: column;
+}
+#language2bg #language{
+    display: flex;
+    flex-direction: column-reverse;
+}
+#language4bg #language{
+    display: flex;
+    flex-direction: column-reverse;
+}
+#languageimg{
+    margin: 0.5rem auto;
+    width: 10rem;
+    height: 10rem;
+}
+#languageText h3{
+    font-size: 1.2rem;
+}
+#languageText #languagep{
+    font-size: 0.85rem;
+}
+
+#contact{
+    max-width: 350px;
+    padding: 1rem 1.5rem;
+}
+#contactHeading{
+    font-size: 1.5rem;
+}
+#infos{
+    padding: 0.5rem;
+}
+#infos p{
+    font-size: 1rem;
+}
+#infoButtons{
+    margin-top: 1rem;
+}
+#infoButtons a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 0;
+    width: 30px;
+    height: 30px;
+}
+#infoButtons a i{
+    width: 1rem;
+    height: 1rem;
+    font-size: 1.1rem;
+    text-align: center;
+    
+}
+#infoButtons #btn-fa{
+    padding-left: 0rem;
+}

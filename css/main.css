@@ -1,0 +1,173 @@
+/* GLOBAL */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+html{
+    font-family: 'Montserrat-Light', sans-serif;
+}
+/* NAVBAR */
+#navbar{
+    color: #fff;
+    display: flex;
+    height: 70px;
+    padding: 0 0.75rem;
+    justify-content: space-between;
+    align-items: center;
+}
+#navbar ul{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+#navbar ul li a{
+    padding:0.5rem;
+    transition: all 0.3s ease-in-out;
+}
+#navbar ul li a:hover{
+    background: #fff;
+    color:#5800FF ;
+    border-radius: 25px;
+}
+
+/* HOME PAGE */
+#home{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+}
+#home a{
+    margin: 0.5rem;
+}
+#home img{
+    width: 17rem;
+    height: auto;
+    border-radius: 100%;
+}
+#name h2{
+    margin-top: 0.75rem;
+}
+#name p{
+    font-style: italic;
+    opacity: 0.6;
+}
+
+/* languageS PAGE */
+#language{
+    display: flex;
+    flex-direction: row;
+    padding: 1.5rem;
+    transition: all .4s ease-in-out;
+}
+#language:hover{
+    transform: scale(1.1);
+    color: #fff;
+}
+#language1bg{
+    background: #0096FF;
+    transition: 0.5s ease-in-out;
+}
+#language1bg:hover{
+    background: #5800FF;
+}
+#language2bg{
+    background: #008aec;
+    transition: 0.5s ease-in-out;
+
+}
+#language2bg:hover{
+    background: #5800FF;
+}
+#language3bg{
+    background: #007ad1;
+    transition: 0.5s ease-in-out;
+}
+#language3bg:hover{
+    background: #5800FF;
+}
+#language4bg{
+    background: #0061a5;
+    transition: 0.5s ease-in-out;
+}
+#language4bg:hover{
+    background: #5800FF;
+}
+#languageimg{
+    width: 12rem;
+    height: 12rem;
+    border: 1px solid rgba(255, 255, 255, 0);
+    border-radius: 10px;
+    margin: 0 0.75rem;
+}
+#languagep{
+    font-size: 1.6rem;
+    letter-spacing: 1px;
+}
+
+/* CONTACT PAGE */
+#contact{
+    max-width: 750px;
+    margin: 5rem auto;
+    padding: 1.5rem 5rem;
+    background: #975fff;
+    border: 1px solid rgba(170, 170, 170, 0);
+    border-radius: 10px;
+    transition: all .5s ease-in-out;
+}
+#contact:hover{
+    transform: scale(1.1);
+    box-shadow: 0px 0px 15px 5px rgba(0, 0, 0, 0.475);
+    background: #5800FF;
+    color: #fff;
+}
+#contact:hover #infoButtons a{
+    color: #fff;
+    background: #5800FF;
+}
+#contactHeading{
+    font-size: 2.1rem;
+    text-decoration: underline;
+}
+#infos{
+    padding: 1rem 3rem;
+}
+#infoBox{
+    margin: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+#infoButtons{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+}
+#infoButtons a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 1rem;
+    padding-left: 2px;
+    width: 50px;
+    height: 50px;
+    transition: all .5s ease-in-out;
+    background: #975fff;
+    color: #000;
+    border-radius: 100%;
+}
+#infoButtons a:hover{
+    background: #fff !important;
+    color: #5800FF !important;
+    transform: scale(1.2);
+}
+#infoButtons a i{
+    width: 2rem;
+    height: 2rem;
+}
