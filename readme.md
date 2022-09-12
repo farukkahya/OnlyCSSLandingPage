@@ -1,4 +1,4 @@
-# *~Only CSS Landing Page~*
+# *~ Only CSS Landing Page ~*
 
 _This is the landing page I created using only html and css languages._
 
